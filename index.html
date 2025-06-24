@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/imagem-perfil-gabi.jfif" alt="avatar da Gabi" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Gabriella_</p>
+        <h1>Sou aluna do Ensino Médio</h1>
+        <p>Tenho 17 anos, gosto de cinema, música, e desenvolvi alguns projetos de programação que aprendi na escola. Veja alguns deles!</p>
+        <p>Minhas conquistas:</p>
+        <div>
+            <p class="badge bg-secondary">Medalhista REDASP 2024</p>
+            <p class="badge bg-secondary">Mecânica de Usinagem SENAI</p>
+            <p class="badge bg-secondary">Montar Cubo Mágico</p>
+            <p class="badge bg-secondary">Aluna Destaque na Escola Nardy</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Captura de Tela (5).png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">A Lebre e a Tartaruga</h5>
+                        <p class="card-text">Este projeto é um jogo interativo de corrida temático da famosa fábula "A Lebre e a Tartaruga",
+                             onde os personagens se movem ao serem clicadas as teclas "a" (lebre) ou "s" (tartaruga) até que um deles atinja a linha
+                             de chegada. Acesse o link e divirta-se!
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2-gabi2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">O Fenômeno da Monalisa</h5>
+                        <p class="card-text">Este projeto é uma versão personalizada do quadro Monalisa de Leonardo Da Vinci que simula
+                        o efeito dos olhos que se mexem (em minha versão, eles também mudam de cor!), seguindo o seu mouse. Acesse o link
+                    e confira. </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3-gabi2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Quente e Frio: Jogo Interativo
+                        </h5>
+                        <p class="card-text">Este projeto cria uma experiência interativa, onde o objetivo é encontrar
+                            o ponto escondido passando o mouse pela tela, que te dá dicas de acordo com a cor e tamanho do círculo
+                            que segue seu mouse.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">A Lebre e a Tartaruga: Jogo de Corrida Interativo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um simples jogo de corrida criado com Java no P5js editor, foi feito em uma de minhas aulas de
+                        programação no ano de 2025 no meu terceiro ano do ensino médio.</p>
+                    <p>A estrutura do jogo é baseada em java, com os códigos que aprendi com o curso da Alura.</p>
+                    <p>A escolha de cores contribui para a satisfação visual do usuário (baseada nos meus gostos) :P</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/gabriellaregina/full/ylUbvtVco">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">O Fenômeno de Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma imagem interativa baseada no famoso efeito do quadro Monalisa de
+                        Leonardo Da Vinci que dá a impressão de te seguir com os olhos. Neste caso, os olhos da figura
+                        seguem seu mouse conforme passeia pela tela.</p>
+                    <p>A estrutura do jogo é baseada em java, com os códigos que aprendi com o curso da Alura, sendo
+                        o primeiro projeto que realizei no curso de programação.
+                    </p>
+                    <p>A escolha de cores, formas e decorações (aparência da personagem) não foi tão inspirada assim
+                        na Monalisa (como é possível ver), preferi usar a criatividade!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/gabriellaregina/full/8RGjWArry">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Quente e Frio: Jogo Interativo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um jogo interativo com foco em encontrar o ponto escondido ao passear o mouse
+                        pela tela, recebendo dicas de acordo com as cores e tamanho do círculo que te acompanha.</p>
+                    <p>O objetivo do projeto foi desenvolver minhas habilidades de programação em um projeto simples
+                        mas interessante.</p>
+                    </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/gabriellaregina/full/MDW3REarPe">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/gabireginadantas">GitHub</a>
+        </div>
+        <p class="my-5 text-center">Produzido por Gabriella Dantas</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
